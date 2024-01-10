@@ -31,9 +31,7 @@ const Work = () => {
               exit='hidden'
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quae
-              culpa placeat accusantium molestiae, mollitia fugit at aliquid
-              sequi tempore!
+              From captivating user interfaces to robust backend solutions, each project reflects my commitment to excellence and passion for delivering cutting-edge software solutions.
             </motion.p>
           </div>
 

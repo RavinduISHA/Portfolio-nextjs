@@ -31,9 +31,10 @@ const Services = () => {
               exit='hidden'
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quae
-              culpa placeat accusantium molestiae, mollitia fugit at aliquid
-              sequi tempore!
+             I specialize in crafting visually striking designs following UI/UX principles,
+             developing seamless frontend and backend features, and implementing robust CI/CD processes.
+             My mission is to transform ideas into impactful digital experiences, 
+             ensuring your software evolves with efficiency and style.
             </motion.p>
           </div>
 

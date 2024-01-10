@@ -35,8 +35,7 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            lorem ipauma dokor dkha dhabba hsvava suvdacc cauicac
-            accentcad advba dahy iuhA oias iuhaod iuabc agcs auvsa.
+            I am a problem solver by nature and enjoy working in a fast-paced, dynamic environment. I am always eager to learn new technologies and stay up-to-date with industry trends to bring the best solutions to clients.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
