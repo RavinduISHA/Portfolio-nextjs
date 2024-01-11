@@ -29,15 +29,15 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaLaravel />,
-          <FaNodeJs />,
-          <FaPython />
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="next" />,
+          <SiFramer key="framer" />,
+          <FaLaravel key="laravel" />,
+          <FaNodeJs key="nodejs" />,
+          <FaPython key="python" />,
         ],
       },
       {
@@ -177,7 +177,7 @@ const About = () => {
               <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[140px]">Real Wrold Project Conribution</div>
             </div>
           </div>
-        </motion.div>  
+        </motion.div>
       </div>
       
       {/* info */}
@@ -189,22 +189,20 @@ const About = () => {
         className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
       >
         <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-        {aboutData.map((item, itemIndex) => {
-          return (
-            <div
-              key={itemIndex}
-              className={`${
-                index === itemIndex % aboutData.length &&
-                'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
-              } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
-              onClick={() => {
-                setIndex(itemIndex);
-              }}
-            >
-              {item.title}
-            </div>
-          );
-        })}
+        {aboutData.map((item, itemIndex) => (
+          <div
+            key={itemIndex}  // Add this line to provide a unique key
+            className={`${
+              index === itemIndex % aboutData.length &&
+              'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
+            } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+            onClick={() => {
+              setIndex(itemIndex);
+            }}
+          >
+            {item.title}
+          </div>
+        ))}
         </div>
         <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
           {aboutData[index].info.map((item, itemIndex) => {
