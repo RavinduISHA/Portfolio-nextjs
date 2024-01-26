@@ -24,8 +24,8 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='h1'>Hello My name is<br/>{' '}
-          <span className='text-accent'> Ravindu Umayanga</span>
+            className='h1'>Hello, I&apos;m Ravindu<br/>{' '}
+          <span className='text-accent'> Full Stack Developer</span>
           </motion.h1>
           {/* subtitile */}
           <motion.p

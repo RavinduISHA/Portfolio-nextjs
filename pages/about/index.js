@@ -10,7 +10,9 @@ import {
   FaFigma,
   FaLaravel,
   FaNodeJs,
-  FaPython,
+  // FaPython,
+  FaFlask,
+  FaVuejs,
 } from "react-icons/fa";
 
 import {
@@ -32,12 +34,18 @@ const aboutData = [
           <FaHtml5 key="html5" />,
           <FaCss3 key="css3" />,
           <FaJs key="js" />,
+        ],
+      },
+      {
+        title: 'Frameworks',
+        icons: [
           <FaReact key="react" />,
           <SiNextdotjs key="next" />,
           <SiFramer key="framer" />,
           <FaLaravel key="laravel" />,
           <FaNodeJs key="nodejs" />,
-          <FaPython key="python" />,
+          <FaFlask key="python" />,
+          <FaVuejs key="vuejs" />
         ],
       },
       {
@@ -144,7 +152,7 @@ const About = () => {
           animate="show"
           exit='hidden'
           className="h2"
-        >Capitivating <span className="text-accent">Stories</span> birth magnificent designs
+        >About <span className="text-accent">Me.</span>
         </motion.h2>
         <motion.p
           variants={fadeIn('right', 0.4)}
@@ -152,7 +160,7 @@ const About = () => {
           animate="show"
           exit='hidden'
           className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
-        >One years ago, I began my career as a software engineer, Since then, I,ve done work for two agencies, and collaborated on digital products for business an consumer use and contributed to develop more than 4 real world projects.</motion.p>
+        >After finishing my Academic studies in Information Technology, I began my career as a software engineer, Since then, I,ve done work for two agencies, and collaborated on digital products for business an consumer use and contributed to develop an maintain more than 4 real world projects.</motion.p>
         {/* counters */}
         <motion.div
           variants={fadeIn('right', 0.6)}
@@ -172,7 +180,7 @@ const About = () => {
             {/* project */}
             <div className="relative flex-0 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
               <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                <CountUp start={0} end={5} duration={10} /> +
+                <CountUp start={0} end={4} duration={10} /> +
               </div>
               <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[140px]">Real Wrold Project Conribution</div>
             </div>
