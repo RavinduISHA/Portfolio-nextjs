@@ -31,8 +31,8 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/project5.png',
-          link: 'https://carrental.infinitycode.com.au/'
+          path: '/project0.png',
+          link: 'https://github.com/RavinduISHA/Memories?tab=readme-ov-file'
         },
       ],
     },
@@ -40,13 +40,13 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/project1.png',
-          link: 'https://8848portal.infinitycode.com.au/'
+          path: '/project5.png',
+          link: 'https://carrental.infinitycode.com.au/'
         },
         {
           title: 'title',
-          path: '/project3.png',
-          link: 'https://carhistory.infinitycode.com.au/'
+          path: '/project1.png',
+          link: 'https://8848portal.infinitycode.com.au/'
         },
         // {
         //   title: 'title',
