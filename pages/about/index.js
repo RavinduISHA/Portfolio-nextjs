@@ -100,7 +100,7 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'HND in SE - Institute Of Technology, University of Moratuwa',
+        title: 'Undergraduate- Institute Of Technology, University of Moratuwa',
         stage: '2019 - 2023',
       },
       {
