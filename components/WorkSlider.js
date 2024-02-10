@@ -31,8 +31,8 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/project0.png',
-          link: 'https://github.com/RavinduISHA/Memories?tab=readme-ov-file'
+          path: '/project7.png',
+          link: 'https://pizza-staging.sterlingbpo.com.au/'
         },
       ],
     },
@@ -48,10 +48,11 @@ const workSlides = {
           path: '/project1.png',
           link: 'https://8848portal.infinitycode.com.au/'
         },
-        // {
-        //   title: 'title',
-        //   path: '/thumb2.jpg',
-        // },
+        {
+          title: 'title',
+          path: '/project0.png',
+          link: 'https://github.com/RavinduISHA/Memories?tab=readme-ov-file'
+        },
         // {
         //   title: 'title',
         //   path: '/thumb3.jpg',
