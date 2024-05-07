@@ -87,11 +87,11 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Associate Software Engineer - Sterling BPO Solutions",
-        stage: "2024 Jan - 2024 Mar",
+        title: "Associate Software Engineer - Sterling IT Solutions",
+        stage: "2024 Jan - Recent",
       },
       {
-        title: "Junior Software Developer - Sterling BPO Solutions",
+        title: "Junior Software Developer - Sterling IT Solutions",
         stage: "2023 Aug - 2024 Jan",
       },
       {
